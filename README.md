@@ -16,12 +16,12 @@ This is a dead simple yet feature filled starter pack for building PWA ready Rea
 ✅ webpack bundling
 ✅ babel transpiler
 ✅ webpack-dev-server
+✅ eslint
+✅ prettier
 ```
 
 ## TODOs
 ```
-❌ eslint
-❌ prettier
 ❌ SSR
 ```
 

@@ -1,7 +1,7 @@
-export function registerServiceWorkerForPWA(config) {
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./service-worker.js');
-    });
-  }
+export function registerServiceWorkerForPWA(): void {
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", (): void => {
+            navigator.serviceWorker.register("./service-worker.js");
+        });
+    }
 }
