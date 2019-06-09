@@ -4,7 +4,7 @@
   "description": "A dead simple react-pwa starter in typescript",
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack.config.js --mode development --open",
-    "build": "rm -rf docs && webpack --config ./webpack.config.js --optimize-minimize --mode production"
+    "build": "rm -rf dist && webpack --config ./webpack.config.js --optimize-minimize --mode production"
   },
   "keywords": [
     "react starter",

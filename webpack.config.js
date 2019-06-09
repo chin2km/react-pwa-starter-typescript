@@ -8,7 +8,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
   entry: './src/index.jsx',
   output: {
-    path: __dirname + '/docs',
+    path: __dirname + '/dist',
     publicPath: '/',
     filename: 'bundle.js'
   },
@@ -17,7 +17,7 @@ module.exports = {
       inject: false,
       template: './src/view/template.ejs',
       mobile: true,
-      title: 'Books Inventory!',
+      title: 'React-PWA-Starter',
       meta: [
         {
           name: 'viewport',
@@ -78,7 +78,7 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   devServer: {
-    contentBase: './docs'
+    contentBase: './dist'
   },
   optimization: {
     minimizer: [
