@@ -32,5 +32,7 @@ install packages: $ npm install
 
 start dev-server: $ npm run dev
 
+lint code: $ npm run lint
+
 start build: $ npm run build
 ```
