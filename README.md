@@ -1,6 +1,7 @@
 # react-pwa-starter-typescript
 
 This is a dead simple yet feature filled starter pack for building PWA ready React Applications.
+demo: https://chin2km.github.io/react-pwa-starter-typescript/
 
 ## Current lighthouse scores:
 
