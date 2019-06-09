@@ -4,7 +4,7 @@ This is a dead simple yet feature filled starter pack for building PWA ready Rea
 
 ## Current lighthouse scores:
 
-[![screenshot](https://lh4.googleusercontent.com/a3GBUMWUi6GsgDdup7uxuxo0bASD6ZSaUSkqueg5aJ5G8ErpbDdFvtNLmRdU9jIkI52py6BiCsm5cUrhGv8u=w1896-h1938-rw)](https://github.com/chin2km)
+![screenshot](public/lighthouse.png)
 
 ## Features
 ✅ react
