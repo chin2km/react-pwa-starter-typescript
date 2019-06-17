@@ -18,6 +18,7 @@ This is a dead simple yet feature filled starter pack for building PWA ready Rea
 ✅ webpack-dev-server
 ✅ eslint
 ✅ prettier
+✅ jest unit test
 ```
 
 ## TODOs

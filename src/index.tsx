@@ -5,7 +5,8 @@ import { registerServiceWorkerForPWA } from "./serviceWorker";
 
 import "./index.css";
 
-let rootElement = document.getElementById("root");
+// @ts-ignore document usage
+const rootElement = document.getElementById("root");
 
 ReactDOM.render(<App />, rootElement);
 

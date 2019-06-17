@@ -13,9 +13,10 @@
         "noImplicitThis": true,
         "noImplicitAny": true,
         "strictNullChecks": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "typeRoots": ["./node_modules/@types"]
     },
     "include": ["src"],
-    "exclude": ["node_modules", "dist", "public", "acceptance-tests", "webpack.config.js"],
-    "types": ["typePatches"]
+    "exclude": ["node_modules", "dist", "public", "webpack.config.js"],
+    "types": ["jest"]
 }
